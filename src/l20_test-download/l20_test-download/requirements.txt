@@ -1,0 +1,58 @@
+# Core Python & Utilities
+numpy>=1.24.0
+scipy>=1.10.0
+pandas>=1.5.0
+matplotlib>=3.7.0
+seaborn>=0.12.2
+tqdm>=4.65.0
+pyyaml>=6.0
+joblib>=1.2.0
+packaging>=23.0
+typing-extensions>=4.6.0
+
+# ML & Optimization
+scikit-learn>=1.3.0
+bottleneck>=1.3.7
+numexpr>=2.8.4
+gurobipy>=9.5.2  # Proprietary solver, must match installed version
+pyscipopt>=4.3.0  # SCIP Python interface, from source
+
+# PyTorch Ecosystem
+torch>=2.1.0
+torchvision>=0.16.0
+torchaudio>=2.1.0
+torch-geometric>=2.3.0
+torch-scatter>=2.1.0
+torch-sparse>=0.6.17
+torch-cluster>=1.6.1
+torch-spline-conv>=1.2.1
+
+# Graph & Community Detection
+networkx>=3.1
+python-louvain>=0.16
+
+# Cryptography and HTTP
+requests>=2.31.0
+urllib3>=2.0.0
+certifi>=2023.7.22
+charset-normalizer>=3.1.0
+cryptography>=41.0.1
+
+# Optional Visualization
+fonttools>=4.40.0
+cycler>=0.11.0
+kiwisolver>=1.4.5
+
+# For Scientific and System Support
+cffi>=1.15.1
+six>=1.16.0
+pycparser>=2.21
+
+# Optional Qt GUI (if you use matplotlib in interactive mode)
+pyqt5>=5.15.9
+
+# Optional for Constraint Solvers
+amplpy>=0.9.0  # AMPL interface (Python binding), if needed
+
+# Optional: For YAML, config loading, etc.
+yacs>=0.1.8
